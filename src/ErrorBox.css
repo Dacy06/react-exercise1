@@ -1,0 +1,14 @@
+.info-box {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(228, 168, 168);
+  border: rgb(240, 112, 112) solid 1px;
+  border-radius: 5px;
+  width: 500px;
+  color: rgb(174, 84, 84);
+}
+
+.info-box i{
+  
+  margin-right: 5px;
+}

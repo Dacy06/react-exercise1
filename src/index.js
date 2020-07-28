@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Envelope from './Envelope';
+import ErrorBox from './ErrorBox';
 
 class App extends Component {
   constructor(props){
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <div>
         <Envelope fromPerson={this.state.fromPerson} toPerson={this.state.toPerson}/>
+        <ErrorBox >The world is ending</ErrorBox>
       </div>
     );
   }
