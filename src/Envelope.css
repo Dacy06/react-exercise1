@@ -1,0 +1,37 @@
+.envelope-container {
+  border: 2px solid grey;
+  width: 800px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.person-info {
+  flex: 1 1;
+  display: flex;
+}
+
+.to-person-area {
+  justify-content: center;
+  align-items: center;
+}
+
+.stamp-area {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stamp-box {
+  color: grey;
+  font-weight: 800;
+  border: 2px solid grey;
+  width: 80px;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.stamp {
+  transform: rotate(-45deg);
+
+}
